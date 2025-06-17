@@ -15,3 +15,4 @@ const sequelize = new Sequelize ("cadastro_tarefas","aluno","senha123",{
 
 module.exports = sequelize;
 
+
