@@ -1,88 +1,63 @@
-📋 Cadastro de Tarefas
+📋 Projeto Cadastro de Tarefas
+Aplicação web simples para cadastro e gerenciamento de tarefas, com backend em Node.js e persistência de dados em MySQL, utilizando Sequelize como ORM.
+
+🚀 Funcionalidades
+✅ Cadastro de tarefas
+
+✅ Integração com banco de dados MySQL
+
+✅ Interface HTML responsiva
+
+✅ Controle de status (pendente/concluída)
+
+🛠️ Tecnologias Utilizadas
+⚙️ Node.js
+
+🚀 Express
+
+🛢️ Sequelize
+
+🗃️ MySQL
+
+🎨 HTML + CSS
+
+📸 Captura de Tela
 
 
-
-Uma aplicação web simples e funcional para cadastro e controle de tarefas. Desenvolvida com backend em Node.js, Express e MySQL, utilizando Sequelize como ORM.
-
-✨ Funcionalidades
-🔹 Cadastrar novas tarefas
-🔹 Listar tarefas existentes
-🔹 Atualizar o status (pendente/concluída)
-🔹 Interface simples e responsiva
-🔹 Persistência de dados com MySQL
-
-🖥️ Tecnologias e Ferramentas
-💡 Ferramenta	💬 Descrição
-Node.js	Ambiente de execução JavaScript no backend
-Express	Framework leve para criação de APIs
-Sequelize	ORM que facilita a comunicação com banco relacional
-MySQL	Banco de dados relacional
-HTML/CSS	Estrutura e estilo da interface do usuário
-Postman (opcional)	Testes de rotas da API
-
-📁 Estrutura do Projeto
-pgsql
-Copiar
-Editar
-cadastro-tarefas/
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   └── server.js
-├── public/
-│   ├── index.html
-│   └── style.css
-├── screenshot.png
-└── README.md
-📸 Demonstração
-<img src="./screenshot.png" width="700" alt="Captura de tela da aplicação"/>
-🧪 Rotas da API
-Método	Rota	Descrição
-GET	/tarefas	Lista todas as tarefas
-POST	/tarefas	Cadastra nova tarefa
-PUT	/tarefas/:id	Atualiza status da tarefa
-DELETE	/tarefas/:id	Deleta uma tarefa
-
-▶️ Como executar localmente
+🧑‍💻 Como Usar
 bash
 Copiar
 Editar
-# Clone o repositório
 git clone https://github.com/seuusuario/seurepositorio.git
-
-# Acesse a pasta
 cd seurepositorio
-
-# Instale as dependências
 npm install
-
-# Inicie o servidor
 node backend/server.js
 Acesse no navegador:
+
+arduino
+Copiar
+Editar
 http://localhost:3000
+📚 Aprendizados
+Este projeto demonstrou:
 
-📚 O que eu aprendi com esse projeto
-Práticas com Node.js e Express
+A migração de backend do SQLite para MySQL usando Sequelize
 
-Uso de Sequelize para conectar com MySQL
+O uso de Node.js com Express para criação de APIs REST
 
-Manipulação de dados no backend
+A estruturação de um projeto MVC simples
 
-Construção de interface HTML com estilo próprio
+A criação de interfaces web integradas ao backend
 
-Organização de arquivos em padrão MVC básico
-
-📝 Licença
+📄 Licença
 Este projeto está sob a licença MIT.
-Sinta-se à vontade para usar, modificar e compartilhar.
 
-Se quiser, posso adicionar:
+Se quiser, posso incluir:
 
-✔️ GIF animado mostrando o funcionamento
+📊 Tabela de rotas da API
 
-✔️ Tradução para inglês
+🌐 Link de demonstração (caso tenha)
 
-✔️ Autores/contribuintes
+🐘 Script .sql do banco para facilitar setup
 
-✔️ Banco de dados .sql para importar
+🤝 Créditos/autores
