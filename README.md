@@ -1,63 +1,92 @@
-📋 Projeto Cadastro de Tarefas
-Aplicação web simples para cadastro e gerenciamento de tarefas, com backend em Node.js e persistência de dados em MySQL, utilizando Sequelize como ORM.
+## ✨ Funcionalidades
 
-🚀 Funcionalidades
-✅ Cadastro de tarefas
+🔹 Cadastrar novas tarefas
+🔹 Listar tarefas existentes
+🔹 Atualizar o status (pendente/concluída)
+🔹 Interface simples e responsiva
+🔹 Persistência de dados com MySQL
 
-✅ Integração com banco de dados MySQL
+---
 
-✅ Interface HTML responsiva
+## 🖥️ Tecnologias e Ferramentas
 
-✅ Controle de status (pendente/concluída)
+| 💡 Ferramenta            | 💬 Descrição                                        |
+| ------------------------ | --------------------------------------------------- |
+| **Node.js**              | Ambiente de execução JavaScript no backend          |
+| **Express**              | Framework leve para criação de APIs                 |
+| **Sequelize**            | ORM que facilita a comunicação com banco relacional |
+| **MySQL**                | Banco de dados relacional                           |
+| **HTML/CSS**             | Estrutura e estilo da interface do usuário          |
+| **Postman** *(opcional)* | Testes de rotas da API                              |
 
-🛠️ Tecnologias Utilizadas
-⚙️ Node.js
+---
 
-🚀 Express
+## 📁 Estrutura do Projeto
 
-🛢️ Sequelize
+cadastro-tarefas/
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   └── server.js
+├── public/
+│   ├── index.html
+│   └── style.css
+├── screenshot.png
+└── README.md
 
-🗃️ MySQL
 
-🎨 HTML + CSS
+---
 
-📸 Captura de Tela
+## 📸 Demonstração
 
+<img src="./screenshot.png" width="700" alt="Captura de tela da aplicação"/>
 
-🧑‍💻 Como Usar
+---
+
+## 🧪 Rotas da API
+
+| Método | Rota           | Descrição                 |
+| ------ | -------------- | ------------------------- |
+| GET    | /tarefas     | Lista todas as tarefas    |
+| POST   | /tarefas     | Cadastra nova tarefa      |
+| PUT    | /tarefas/:id | Atualiza status da tarefa |
+| DELETE | /tarefas/:id | Deleta uma tarefa         |
+
+---
+
+## ▶️ Como executar localmente
+
 bash
-Copiar
-Editar
+# Clone o repositório
 git clone https://github.com/seuusuario/seurepositorio.git
+
+# Acesse a pasta
 cd seurepositorio
+
+# Instale as dependências
 npm install
+
+# Inicie o servidor
 node backend/server.js
+
+
 Acesse no navegador:
-
-arduino
-Copiar
-Editar
 http://localhost:3000
-📚 Aprendizados
-Este projeto demonstrou:
 
-A migração de backend do SQLite para MySQL usando Sequelize
+---
 
-O uso de Node.js com Express para criação de APIs REST
+## 📚 O que eu aprendi com esse projeto
 
-A estruturação de um projeto MVC simples
+* Práticas com **Node.js** e **Express**
+* Uso de **Sequelize** para conectar com MySQL
+* Manipulação de dados no backend
+* Construção de interface HTML com estilo próprio
+* Organização de arquivos em padrão MVC básico
 
-A criação de interfaces web integradas ao backend
+---
 
-📄 Licença
-Este projeto está sob a licença MIT.
+## 📝 Licença
 
-Se quiser, posso incluir:
-
-📊 Tabela de rotas da API
-
-🌐 Link de demonstração (caso tenha)
-
-🐘 Script .sql do banco para facilitar setup
-
-🤝 Créditos/autores
+Este projeto está sob a licença **MIT**.
+Sinta-se à vontade para usar, modificar e compartilhar.
