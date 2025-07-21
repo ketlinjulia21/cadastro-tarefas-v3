@@ -21,23 +21,6 @@
 
 ---
 
-## 📁 Estrutura do Projeto
-
-cadastro-tarefas/
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   └── server.js
-├── public/
-│   ├── index.html
-│   └── style.css
-├── screenshot.png
-└── README.md
-
-
----
-
 ## 📸 Demonstração
 
 <img src="./screenshot.png" width="700" alt="Captura de tela da aplicação"/>
@@ -59,7 +42,7 @@ cadastro-tarefas/
 
 bash
 # Clone o repositório
-git clone https://github.com/seuusuario/seurepositorio.git
+git clone https://github.com/ketlinjulia21/cadastro-tarefas-v3.git
 
 # Acesse a pasta
 cd seurepositorio
