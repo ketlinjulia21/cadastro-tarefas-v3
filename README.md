@@ -23,7 +23,8 @@
 
 ## 📸 Demonstração
 
-<img src="./screenshot.png" width="700" alt="Captura de tela da aplicação"/>
+![Uploading image.png…]()
+
 
 ---
 
