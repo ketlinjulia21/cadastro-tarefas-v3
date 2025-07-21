@@ -23,7 +23,8 @@
 
 ## 📸 Demonstração
 
-Uploading image.png…
+<img width="761" height="520" alt="print" src="https://github.com/user-attachments/assets/e9a92402-8cf7-42b5-b6b9-25110c63a5c3" />
+
 
 
 ---
