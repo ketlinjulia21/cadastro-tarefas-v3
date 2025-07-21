@@ -47,7 +47,7 @@ bash
 git clone https://github.com/ketlinjulia21/cadastro-tarefas-v3.git
 
 # Acesse a pasta
-cd seurepositorio
+cadastro-tarefas
 
 # Instale as dependências
 npm install
